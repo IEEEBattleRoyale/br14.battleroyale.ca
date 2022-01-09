@@ -49,15 +49,37 @@ footer {
 
 /* Existing classes */
 
-.active {
-    color: #FFFFFF;
-    background-color: #6f8faca1;
-    border-radius: .25rem;
+.accordion-button:hover, .accordion-button:active {
+    color: black !important;
+    background-color: #5fb7ff !important;
 }
 
-.divider {
-    border-top: 0.5rem solid #5fb7ff;
-    box-shadow: 0 0 0.8rem #5fb7ff;
+.accordion-header, .accordion-button{
+    background-color: #0C141F !important;
+}
+
+.accordion-item {
+    border:none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: #5fb7ff !important;
+}
+
+.accordion-collapse:not(.collapsed) {
+    border-left: 1px solid #ffffff !important;
+    border-right: 1px solid #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.accordion-collapse {
+    background-color: #0C141F;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 /* Custom classes */
@@ -74,17 +96,82 @@ footer {
     background-color: #303031;
 }
 
+.blue-link a, #send {
+    color: #5fb7ff;
+}
+
+.blue-link a:hover, #send:hover {
+    color: #006eff !important;
+}
+
+.btn-glow{
+    border-color: #5fb7ff;
+    border-width: 4px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #5fb7ff;
+}
+
+.carousel-inner {
+    border-radius: 20px 0px 20px 0px !important;
+    border: 4px solid #5fb7ff;
+    box-shadow: 0 0 20px #5fb7ff;
+}
+
+.contact-link {
+    width: 60px;
+    height: 60px;
+}
+
+.divider {
+    border-top: 0.5rem solid #5fb7ff;
+    box-shadow: 0 0 0.8rem #5fb7ff;
+}
+
 .dropdown-item:active {
     background-color: #FF3A7F;
 }
 
-/* Existing classes */
-
-.row {
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .header {
     font-family: 'Bebas Neue', cursive;
+    text-shadow: 0px 0px 10px #5fb7ff;
+}
+
+.light-blue {
+    color: #5fb7ff;
+}
+
+/* Offset Navbar */
+span.anchor {
+    margin-top: -4.3rem; /* height of nav, in this case 54px */
+    display: block;
+    height: 4.3rem; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
+}
+
+/* Style for extra large screen */
+
+@media (max-width: 1200px) {
+    #about-content iframe {
+        height: 15.625rem !important;
+    }
+}
+
+/* Style for large screen */
+
+@media (max-width: 992px) {
+    #about-content iframe {
+        height: 31.25rem !important;
+    }
+}
+
+/* Style for small screen */
+
+@media (max-width: 575px) {
+    #about-content iframe {
+        height: 14.063rem !important;
+    }
+    #banner {
+        width: 100% !important;
+    }
 }
