@@ -16,10 +16,6 @@ footer {
 
 /* Custom IDs */
 
-#dsc-btn a:hover {
-    background-color: #5865F2;
-}
-
 #navbar a {
     color: #FFFFFF;
 }
@@ -36,6 +32,10 @@ footer {
 
 #navbar .dropdown-menu {
     background-color: #494949;
+}
+
+#dsc-btn a:hover {
+    background-color: #5865F2;
 }
 
 #welcome {
