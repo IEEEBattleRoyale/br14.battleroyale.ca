@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle Royale 14</title>
+  <meta name="description" property="og:description" content="The official website of Battle Royale 14.">
+  <link rel="canonical" href="https://br14.battleroyale.ca/">
+  <meta name="robots" content="index">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Battle Royale 14">
+  <meta property="og:image" content="https://raw.githubusercontent.com/stevenli5/battleroyale/main/images/meta.png">
+  <meta property="og:url" content="https://br14.battleroyale.ca/">
+  <meta property="og:site_name" content="Battle Royale 14">
+  <meta name="twitter:title" content="Battle Royale 14">
+  <meta name="twitter:description" content="The official website of Battle Royale 14.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/stevenli5/battleroyale/main/images/meta.png">
+  <meta name="keywords" content="Battle Royale 14 website, Battle Royale 14">
+  <meta name="google" content="notranslate">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./images/logo.png" />
+  <!-- Bootstrap 5.0.2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/homepage.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo&family=Nunito+Sans:wght@300&family=Rubik:wght@300&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body onload="displayEvents()">
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-xl navbar-dark bg-dark sticky-top p-0">
+    <div class="container-fluid">
+      <h1 class="navbar-brand fs-3 fw-bold m-0"><img src="./images/logo.png" alt="Battle Royale 14" width="60rem"
+          height="60rem" class="d-inline-block align-text-middle me-3">Battle Royale 14</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger"
+        aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-center fs-5" id="hamburger">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#tickets">Tickets</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#games">Games</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#game-jam">Game Jam</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item mx-1">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li id="dsc-btn" class="nav-item ms-xl-4 mb-2 mb-xl-0 mt-3 mt-xl-0 mx-1">
+            <a role="button" class="btn btn-light text-dark nav-link fs-5 p-2" href="https://discord.gg/JbyTNhD" style="border: 0;"><i
+                class="fab fa-discord"></i> Discord</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Welcome -->
+  <div id="welcome" class="container-fluid p-0 sticky-top py-3" style="z-index: -1; top: 70px;">
+    <div class="row py-5 p-lg-5 d-flex justify-content-center">
+      <img src="images/BR14-full.png" id="banner" class="w-75" alt="Battle Royale 14">
+    </div>
+  </div>
+  <!-- Welcome End -->
+
+  <!-- About -->
+  <span id="about" class="anchor"></span>
+  <div id="about-content" class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Welcome to Battle Royale 14!</h2>
+    </div>
+    <div class="row px-lg-5">
+      <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center">
+        <p class="fs-4">From intense gaming to unbeatable bragging rights, Battle Royale has it all. <br />
+          If you think you have what it takes to rise to the top or simply want to have a good time, Battle Royale is
+          for you!</p>
+      </div>
+      <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center">
+        <iframe style="width: 60rem; height: 30rem;" src="https://www.youtube.com/embed/p_okiP7-Kuk"
+          title="Battle Royale 14 promotional video" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+  <!-- Tickets -->
+  <span id="tickets" class="anchor"></span>
+  <div class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Tickets</h2>
+    </div>
+    <div class="row px-3 px-lg-5 text-center">
+      <p class="fs-4">If you're an IEEE member, you will receive a discount. Just be sure to provide proof of
+        membership! For more
+        information on tickets, prizes, and prize pools, please press the "Purchase Ticket" button below which will
+        bring you to our Eventbrite page.</p>
+      <a class="btn btn-glow btn-outline-light btn-floating fs-1 header p-2" href="https://discord.gg/uAbd5uRTCA" target="_blank"
+        role="button">Purchase Tickets</a>
+    </div>
+  </div>
+  <!-- Tickets End -->
+
+  <!-- Games -->
+  <span id="games" class="anchor"></span>
+  <div class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Games & Prizes</h2>
+    </div>
+    <div class="row px-lg-5 text-white">
+      <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center p-0 order-1 order-lg-2">
+        <div class="container-fluid p-0">
+          <h3 class="display-7 fw-bold">Games</h3>
+          <p class="fs-4">Every year, Battle Royale has been one of the most epic gaming competitions in Ottawa, with
+            legendary prizes and intense games. And this year is no exception.
+            <br />
+            Battle Royale 14 will feature League of Legends and VALORANT, with each game featuring its own tournament
+            and prize pool!
+          </p>
+          <h3 class="display-7 fw-bold">Prizes</h3>
+          <p class="fs-4">This year's prize pools can be seen on the eventbrite page! Click the "Tickets" button below
+            to view all the details regarding the prizes!
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center p-0 order-2 order-lg-1">
+        <img src="./images/lol-val.png" class="w-100 figure-img img-fluid rounded" alt="League of Legends and VALORANT logos">
+      </div>
+    </div>
+    <div class="row px-lg-5 text-white">
+      <p class="fs-5">IMPORTANT: This year, League of Legends and VALORANT will be the tournaments. CS:GO and Rocket
+        League will be
+        offered as non-prized tournaments.
+        <br />
+        Looking for a team? Join our Discord server and let people know what game you're playing in #team-formation!
+      </p>
+    </div>
+  </div>
+  <!-- Games End -->
+
+  <!-- Schedule -->
+  <span id="schedule" class="anchor"></span>
+  <div class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Schedule</h2>
+    </div>
+    <div class="row text-white text-center">
+      <img src="./images/schedule.png" class="w-100 figure-img img-fluid rounded" alt="Schedule">
+    </div>
+    <div class="row px-3">
+      <a class="btn btn-glow btn-outline-light btn-floating fs-1 header p-2" href="https://discord.gg/uAbd5uRTCA" target="_blank"
+        role="button">Detailed Schedule</a>
+    </div>
+  </div>
+  <!-- Schedule End -->
+
+  <!-- Game Jam -->
+  <span id="game-jam" class="anchor"></span>
+  <div class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Game Jam</h2>
+    </div>
+    <div class="row px-lg-5 text-white">
+      <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center">
+        <div class="container-fluid p-0">
+          <p class="fs-4">New to Battle Royale this year is a Game Jam!
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex">
+        <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+              <img src="./images/1.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/2.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/3.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/4.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/5.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/6.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/7.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/8.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/9.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/10.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/11.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/12.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/13.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/14.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/15.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/16.jpg" class="d-block w-100" alt="Battle Royale 10">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Game Jam End -->
+
+  <!-- FAQ -->
+  <span id="faq" class="anchor"></span>
+  <div class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link py-4">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Frequently Asked Questions</h2>
+    </div>
+    <div class="row px-lg-5 py-3">
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Who can participate in Battle Royale 14?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-5">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-5">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-5">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- FAQ End -->
+
+  <!-- Partners -->
+  <div class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Partners</h2>
+    </div>
+    <div class="row px-xl-5 d-flex justify-content-center">
+      <img src="./images/ieee-ottawa.png" class="figure-img img-fluid" style="max-width:850px;"
+        alt="IEEE Ottawa Section logo">
+      <img src="./images/ieee-uottawa.png" class="figure-img img-fluid" style="max-width:350px;"
+        alt="IEEE uOttawa Student Branch logo">
+      <img src="./images/ieee-carleton.png" class="figure-img img-fluid" style="max-width:400px;"
+        alt="IEEE Carleton Student Branch logo">
+    </div>
+    <div class="row pt-4 pb-2">
+      <h2 class="display-3 text-center fw-bold header">Charity</h2>
+    </div>
+    <div class="row px-xl-5 d-flex justify-content-center">
+      <img src="./images/ottawa-food-bank.png" class="figure-img img-fluid" style="max-width: 16rem;"
+        alt="Ottawa Food Bank logo">
+    </div>
+  </div>
+  <!-- Partners End -->
+
+  <!-- Contact -->
+  <span id="contact" class="anchor"></span>
+  <div class="divider container-fluid p-0 bg-blue py-2 py-lg-4 text-white blue-link d-flex flex-column align-items-center">
+    <div class="row py-2">
+      <h2 class="display-3 text-center fw-bold header">Contact</h2>
+    </div>
+    <!-- Form -->
+    <div id="contact-layout" class="row">
+      <form id="contact-form" name="contact" method="POST" data-netlify="true" action="/sent/" autocomplete="off">
+        <div class="row">
+          <div id="nameTooltip" class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 pe-0 pe-lg-1 ps-0"
+            data-bs-toggle="tooltip" data-bs-placement="left"
+            title="Enter your name. This way, we can address you properly.">
+            <input id="name" name="name" type="name" class="form-control" placeholder="Name"
+              onfocusout="validateName(this)" required>
+            <label id="nameLabel" for="name" class="ps-2 required">Name</label>
+          </div>
+          <div id="discordTooltip" class="col-lg-6 col-sm-12 form-floating text-dark fw-bold mb-2 ps-0 ps-lg-1 pe-0"
+            data-bs-toggle="tooltip" data-bs-placement="left" title="Enter your Discord username. (Optional)">
+            <input id="discord" name="discord" type="text" class="form-control" placeholder="Discord Username"
+              onfocusout="validateDiscord(this)">
+            <label id="discordLabel" for="discord" class="ps-2 ps-lg-3">Discord&nbsp;Username</label>
+          </div>
+        </div>
+        <div class="row">
+          <div id="emailTooltip" class="col-12 form-floating text-dark fw-bold mb-2 px-0" data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            title="Enter your email address. We will reply to your message through the provided email address.">
+            <input id="email" name="email" type="email" class="form-control" placeholder="Email Address"
+              onfocusout="validateEmail(this)" required>
+            <label id="emailLabel" for="email" class="ps-2 required">Email Address</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 form-floating mb-2 px-0" data-bs-toggle="tooltip" data-bs-placement="left"
+            title="Select the reason for why you're contacting us.">
+            <label id="reasonLabel" for="reason"
+              class="form-label mb-0 text-dark pt-0 ps-2 fw-bold required">Contact&nbsp;Reason</label>
+            <select id="reason" name="reason" class="form-select pt-3" onfocusout="validateReason(this)" required>
+              <option value selected disabled>Select one</option>
+              <option value="Partnership">Partnership</option>
+              <option value="Event Question">Question regarding the event</option>
+              <option value="Tournament Question">Question regarding a tournament</option>
+              <option value="Game Jam Question">Question regarding the game jam</option>
+              <option value="Discord Help">Discord help</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div id="subjectTooltip" class="col-12 form-floating text-dark fw-bold mb-2 px-0" data-bs-toggle="tooltip"
+            data-bs-placement="left" title="Enter the subject of your message.">
+            <input id="subject" name="subject" type="text" class="form-control" placeholder="Subject"
+              onfocusout="validateSubject(this)" required>
+            <label id="subjectLabel" for="subject" class="ps-2 required">Subject</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-2 px-0" data-bs-toggle="tooltip" data-bs-placement="left"
+            title="Enter the message you'd like to send us.">
+            <label for="message" class="form-label fw-bold required">Message</label>
+            <textarea id="message" name="message" class="form-control" onfocusout="validateMessage(this)" rows="6"
+              maxlength="5000" placeholder="How can we make your day better?" required></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 p-0"><span class="required"></span> Required</div>
+        </div>
+        <div class="row">
+          <div class="col-12 p-0 mt-3 mb-1 text-center">
+            <button id="send" class="btn btn-glow btn-outline-light btn-floating light-blue fs-1 w-100 header p-2" type="submit"
+              onclick="validate()">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Form End -->
+  </div>
+  <!-- Contact End -->
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white blue-link">
+    <div class="container p-2">
+      <section class="d-flex justify-content-center">
+        <a class="contact-link btn btn-glow btn-outline-light btn-floating m-1 fs-4 d-flex justify-content-center align-items-center" href="https://discord.gg/JbyTNhD" title="Discord"
+          target="_blank" role="button"><i class="fab fa-discord fs-3"></i></a>
+        <a class="contact-link btn btn-glow btn-outline-light btn-floating m-1 fs-4 d-flex justify-content-center align-items-center" href="https://www.facebook.com/battleroyaleottawa"
+          title="Facebook" target="_blank" role="button"><i class="fab fa-facebook-square fs-3"></i></a>
+        <a class="contact-link btn btn-glow btn-outline-light btn-floating m-1 fs-4 d-flex justify-content-center align-items-center" href="https://www.twitch.tv/ieeebattleroyale"
+          title="Twitch" target="_blank" role="button"><i class="fab fa-twitch fs-3"></i></a>
+        <a class="contact-link btn btn-glow btn-outline-light btn-floating m-1 fs-4 d-flex justify-content-center align-items-center"
+          href="https://www.youtube.com/channel/UCV-OyQTN7IQlyb0zXCVQjnA" title="YouTube" target="_blank"
+          role="button"><i class="fab fa-youtube fs-3"></i></a>
+          <a class="contact-link btn btn-glow btn-outline-light btn-floating m-1 fs-4 d-flex justify-content-center align-items-center"
+          href="https://linktr.ee/br14" title="Linktree" target="_blank"
+          role="button"><i class="fas fa-tree fs-3"></i></a>
+      </section>
+    </div>
+    <div class="bg-dark text-center p-1 fs-5">
+      <p><a href="https://github.com/stevenli5/battleroyale" rel="external" target="_blank">Made with ♥ by the Organizing Team</a></p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script type="text/javascript" src="./scripts/contact.js"></script>
+
+</body>
+
+</html>

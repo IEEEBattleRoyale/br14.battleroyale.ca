@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Sent | Battle Royale 14</title>
+  <meta name="description" content="The official website of Battle Royale 14.">
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/stevenli5/battleroyale/main/images/meta.png">
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/stevenli5/battleroyale/main/images/meta.png">
+  <meta http-equiv="refresh" content="10;url=https://br14.battleroyale.ca/sent/" />
+  <meta name="google" content="notranslate">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../images/logo.png" />
+  <!-- Bootstrap 5.0.2 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/sent.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1eb2ce7a7c.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo&family=Nunito+Sans:wght@300&family=Rubik:wght@300&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body onload="translate()">
+  <div class="container-fluid">
+    <div class="card alert-success bg-sent text-center">
+      <h1 class="card-header fs-1 header">Message Sent!</h1>
+      <div class="card-body">
+        <p class="card-text fs-5">Thank you for getting in touch with us! Please check your email for a transcript of your
+          message.</p>
+        <p class="card-text">You will be redirected to the website in <span id="countdowntimer">10</span> seconds.
+        </p>
+        <a href="/" class="btn btn-dark"><i class="fas fa-undo-alt me-1"></i> Return to website</a>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    let timeleft = 10;
+    let downloadTimer = setInterval(function () {
+      timeleft--;
+      document.getElementById("countdowntimer").textContent = timeleft;
+      if (timeleft <= 0)
+        clearInterval(downloadTimer);
+    }, 1000);
+  </script>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
