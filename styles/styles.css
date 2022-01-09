@@ -16,6 +16,10 @@ footer {
 
 /* Custom IDs */
 
+#dsc-btn a:hover {
+    background-color: #5865F2;
+}
+
 #navbar a {
     color: #FFFFFF;
 }
@@ -34,10 +38,6 @@ footer {
     background-color: #494949;
 }
 
-#dsc-btn a:hover {
-    background-color: #5fb7ff;
-}
-
 #welcome {
     background-image: linear-gradient(#000000a6, #000000a6), url(../images/space.jpg);
     background-repeat: no-repeat;
@@ -54,12 +54,12 @@ footer {
     background-color: #5fb7ff !important;
 }
 
-.accordion-header, .accordion-button{
+.accordion-header, .accordion-button {
     background-color: #0C141F !important;
 }
 
 .accordion-item {
-    border:none !important;
+    border: none !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -68,9 +68,9 @@ footer {
 }
 
 .accordion-collapse:not(.collapsed) {
-    border-left: 1px solid #ffffff !important;
-    border-right: 1px solid #ffffff !important;
-    border-bottom: 1px solid #ffffff !important;
+    border-left: 1px solid #FFFFFF !important;
+    border-right: 1px solid #FFFFFF !important;
+    border-bottom: 1px solid #FFFFFF !important;
 }
 
 .accordion-collapse {
@@ -92,10 +92,6 @@ footer {
     background-color: #0C141F;
 }
 
-.bg-grey {
-    background-color: #303031;
-}
-
 .blue-link a, #send {
     color: #5fb7ff;
 }
@@ -104,7 +100,7 @@ footer {
     color: #006eff !important;
 }
 
-.btn-glow{
+.btn-glow {
     border-color: #5fb7ff;
     border-width: 4px;
     border-radius: 20px;
@@ -142,9 +138,11 @@ footer {
 
 /* Offset Navbar */
 span.anchor {
-    margin-top: -4.3rem; /* height of nav, in this case 54px */
+    margin-top: -4.3rem;
+    /* height of nav, in this case 54px */
     display: block;
-    height: 4.3rem; /* height of nav, in this case 54px */
+    height: 4.3rem;
+    /* height of nav, in this case 54px */
     visibility: hidden;
     position: relative;
 }
@@ -171,6 +169,7 @@ span.anchor {
     #about-content iframe {
         height: 14.063rem !important;
     }
+
     #banner {
         width: 100% !important;
     }
