@@ -114,8 +114,8 @@
       <h2 class="display-3 text-center fw-bold header">Welcome to Battle Royale 14!</h2>
     </div>
     <div class="row px-lg-5">
-      <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center">
-        <p class="fs-4">From intense gaming to unbeatable bragging rights, Battle Royale has it all. <br />
+      <div class="col-lg-6 px-3 p-lg-0 pe-lg-5 d-flex align-items-center justify-content-center">
+        <p class="justify fs-4">From intense gaming to unbeatable bragging rights, Battle Royale has it all. <br />
           If you think you have what it takes to rise to the top or simply want to have a good time, Battle Royale is
           for you!</p>
       </div>
@@ -136,12 +136,12 @@
       <h2 class="display-3 text-center fw-bold header">Tickets</h2>
     </div>
     <div class="row px-3 px-lg-5 text-center">
-      <p class="fs-4">If you're an IEEE member, you will receive a discount. Just be sure to provide proof of
+      <p class="p-0 justify fs-4">If you're an IEEE member, you will receive a discount. Just be sure to provide proof of
         membership! For more
-        information on tickets, prizes, and prize pools, please press the "Purchase Ticket" button below which will
+        information on tickets, prizes, and prize pools, click the button below which will
         bring you to our Eventbrite page.</p>
-      <a class="btn btn-glow btn-outline-light btn-floating fs-1 header p-2 my-3" href="#"
-        target="_blank" role="button">Purchase Tickets</a>
+      <a class="btn btn-glow btn-outline-light btn-floating fs-1 header p-2 my-3" href="#" target="_blank"
+        role="button">Purchase Tickets or Donate!</a>
     </div>
   </div>
   <!-- Tickets End -->
@@ -156,15 +156,15 @@
       <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center p-0 order-1 order-lg-2">
         <div class="container-fluid p-0">
           <h3 class="display-7 fw-bold">Games</h3>
-          <p class="fs-4">Every year, Battle Royale has been one of the most epic gaming competitions in Ottawa, with
+          <p class="justify fs-4">Every year, Battle Royale has been one of the most epic gaming competitions in Ottawa, with
             legendary prizes and intense games. And this year is no exception.
             <br />
             Battle Royale 14 will feature League of Legends and VALORANT, with each game featuring its own tournament
             and prize pool!
           </p>
           <h3 class="display-7 fw-bold">Prizes</h3>
-          <p class="fs-4">This year's prize pools can be seen on the eventbrite page! Click the "Tickets" button below
-            to view all the details regarding the prizes!
+          <p class="justify fs-4">Battle Royale 14 offers a prize pool of $500, split evenly between League of Legends and
+            VALORANT. <br />1<sup>st</sup> place: $125 split evenly <br />2<sup>nd</sup> place: $75 split evenly <br />3<sup>rd</sup> place: $50 split evenly
           </p>
         </div>
       </div>
@@ -174,11 +174,11 @@
       </div>
     </div>
     <div class="row px-lg-5 text-white">
-      <p class="fs-5">IMPORTANT: This year, League of Legends and VALORANT will be the tournaments. CS:GO and Rocket
+      <p class="justify fs-5">IMPORTANT: This year, League of Legends and VALORANT will be the tournaments. CS:GO and Rocket
         League will be
-        offered as non-prized tournaments.
+        offered as minor, non-prized tournaments.
         <br />
-        Looking for a team? Join our Discord server and let people know what game you're playing in #team-formation!
+        Looking for a team? Join our <a href="https://discord.gg/JbyTNhD" rel="external" target="_blank">Discord server</a> and let people know what game you're playing in #team-formation!
       </p>
     </div>
   </div>
@@ -191,11 +191,33 @@
       <h2 class="display-3 text-center fw-bold header">Schedule</h2>
     </div>
     <div class="row px-lg-5 text-white text-center">
-      <img src="./images/schedule.png" class="w-100 figure-img img-fluid rounded" alt="Schedule">
+      <!-- <img src="./images/schedule.png" class="w-100 figure-img img-fluid rounded" alt="Schedule"> -->
+      <ul class="nav nav-tabs d-flex justify-content-center fs-4" id="sched" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link schedTab active fw-bold" id="day1" data-bs-toggle="tab" data-bs-target="#day1"
+            type="button" role="tab" aria-controls="day1" aria-selected="true">Day 1</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link schedTab fw-bold" id="day2" data-bs-toggle="tab" data-bs-target="#day2" type="button"
+            role="tab" aria-controls="day2" aria-selected="false">Day 2</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link schedTab fw-bold" id="day3" data-bs-toggle="tab" data-bs-target="#day3" type="button"
+            role="tab" aria-controls="day3" aria-selected="false">Day 3</button>
+        </li>
+      </ul>
+      <div class="tab-content p-0" id="schedContent">
+        <div class="tab-pane show active" id="day1" role="tabpanel" aria-labelledby="day1"><img
+            src="./images/schedule.png" class="schedImg w-100 figure-img img-fluid rounded" alt="Schedule"></div>
+        <div class="tab-pane" id="day2" role="tabpanel" aria-labelledby="day2"><img src="./images/schedule.png"
+            class="schedImg w-100 figure-img img-fluid rounded" alt="Schedule"></div>
+        <div class="tab-pane" id="day3" role="tabpanel" aria-labelledby="day3"><img src="./images/schedule.png"
+            class="schedImg w-100 figure-img img-fluid rounded" alt="Schedule"></div>
+      </div>
     </div>
     <div class="row my-2 my-lg-0 pt-1 pt-lg-3 px-3 px-lg-5">
-      <a class="btn btn-glow btn-outline-light btn-floating fs-1 header p-2 my-3" href="#"
-        target="_blank" role="button">Detailed Schedule</a>
+      <a class="btn btn-glow btn-outline-light btn-floating fs-1 header p-2 my-3" href="#" target="_blank"
+        role="button">Detailed Schedule</a>
     </div>
   </div>
   <!-- Schedule End -->
@@ -207,9 +229,10 @@
       <h2 class="display-3 text-center fw-bold header">Game Jam</h2>
     </div>
     <div class="row px-lg-5 text-white">
-      <div class="col-lg-6 px-3 p-lg-0 d-flex align-items-center justify-content-center">
+      <div class="col-lg-6 px-3 p-lg-0 pe-lg-5 d-flex align-items-center justify-content-center">
         <div class="container-fluid p-0">
-          <p class="fs-4">New to Battle Royale this year is a Game Jam!
+          <p class="justify fs-4">New to Battle Royale this year is a Game Jam! In groups of 1 to 4, you will be tasked with
+            programming a game mechanic using the language of your choosing.
           </p>
         </div>
       </div>
@@ -297,8 +320,10 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
             data-bs-parent="#accordionExample">
-            <div class="accordion-body fs-5">
-              Lorem ipsem
+            <div class="accordion-body justify fs-5">
+              Absolutely anyone over 12 years of age can participate in Battle Royale. Many students from Carleton
+              University, University of Ottawa, and Algonquin College attend, so it's a great opportunity to socialize
+              with them.
             </div>
           </div>
         </div>
@@ -307,13 +332,14 @@
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
+              Do I have to stay online for the full 72 hours?
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample">
-            <div class="accordion-body fs-5">
-              Lorem ipsem
+            <div class="accordion-body justify fs-5">
+              Of course not! Simply attend the events and tournaments that you've signed up for. It's encouraged that
+              you stay around in the server to socialize with others!
             </div>
           </div>
         </div>
@@ -322,13 +348,71 @@
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
+              Can I return my ticket or give it to someone else?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
             data-bs-parent="#accordionExample">
-            <div class="accordion-body fs-5">
-              Lorem ipsem
+            <div class="accordion-body justify fs-5">
+              All sales are final, meaning we do not offer refunds for tickets. However, tickets are transferable,
+              meaning that you can give your ticket to someone else. In this case, you must notify an organizer about
+              the transferal. However, if a tournament doesn't receive enough competitors, it will be cancelled, with no
+              ticket refund. You can prevent this by inviting your friends to play in that tournament!
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              What's the difference between a major and minor tournament?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body justify fs-5">
+              Major tournaments are the games offer prize pools. This year, League of Legends and VALORANT are the major
+              tournaments. Major tournaments are expected to have more competitors, so the competition will be higher
+              (and also more epic). Minor tournaments on the other hand do not offer prize pools. This is due to the
+              fact that the game may not have as high of an expected turnout (CS:GO) or because the game's community
+              tournament guildelines do not allow for paid entry to tournaments (Rocket League).
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              What happens if I miss my game or it overlaps with another?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body justify fs-5">
+              We do our best to avoid scheduling conflicts. However should one arise, the major tournaments will always
+              take priority. This means you may need to forfeit from your minor tournament, though we'll do our best to
+              prevent this! A missed game results in automatic forfeiture and puts your team at risk at having an
+              incomplete team.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed text-white fs-4" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Do I have to submit something by the end of the event for the Game Jam?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body justify fs-5">
+              Although it is highly encouraged to get a complete product, there is no need to submit anything for the
+              Game Jam if you don't feel comfortable doing so. You could also submit an incomplete product and
+              potentially get guidance on how to complete it! The whole purpose of this event is for you to learn game
+              development.
             </div>
           </div>
         </div>
@@ -344,17 +428,17 @@
       <h2 class="display-3 text-center fw-bold header">Partners</h2>
     </div>
     <div class="row px-xl-5 d-flex justify-content-center">
-      <img src="./images/ieee-ottawa.png" class="figure-img img-fluid" style="max-width:850px;"
+      <img src="./images/ieee-ottawa.png" class="figure-img img-fluid" style="max-width: 850px;"
         alt="IEEE Ottawa Section logo">
-      <img src="./images/ieee-uottawa.png" class="figure-img img-fluid" style="max-width:350px;"
+      <img src="./images/ieee-uottawa.png" class="figure-img img-fluid" style="max-width: 350px;"
         alt="IEEE uOttawa Student Branch logo">
-      <img src="./images/ieee-carleton.png" class="figure-img img-fluid" style="max-width:400px;"
+      <img src="./images/ieee-carleton.png" class="figure-img img-fluid" style="max-width: 400px;"
         alt="IEEE Carleton Student Branch logo">
     </div>
     <div class="row pt-4 pb-2">
       <h2 class="display-3 text-center fw-bold header">Charity</h2>
     </div>
-    <div class="row px-xl-5 d-flex justify-content-center">
+    <div class="row pb-3 px-xl-5 d-flex justify-content-center">
       <img src="./images/ottawa-food-bank.png" class="figure-img img-fluid" style="max-width: 16rem;"
         alt="Ottawa Food Bank logo">
     </div>
