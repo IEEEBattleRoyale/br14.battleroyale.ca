@@ -18,3 +18,15 @@
 
 ## Additional Information
 - This project was previously edited on a personal repository, at [https://github.com/stevenli5/battleroyale](https://github.com/stevenli5/battleroyale)
+
+# Battle Royale 14 Organizing Team
+- Brian Y. (Lead Organizer, IEEE Carleton)
+- Steven L. (Lead Organizer & Webmaster, IEEE uOttawa)
+- Hamas W. (Treasurer, IEEE Carleton)
+- Juan H. P. (Tournament Lead, IEEE uOttawa)
+- Mario S. (Events Lead, IEEE Carleton)
+- Ali J. (Marketing Lead, uOttawa)
+- Pavly S. (Marketing Lead, uOttawa)
+- Mehedi H. (Patronage Lead, IEEE uOttawa)
+- Rafael A. (Design Lead, uOttawa)
+- Alae B. (Design Lead, IEEE uOttawa)
