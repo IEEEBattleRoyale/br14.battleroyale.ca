@@ -36,14 +36,19 @@ footer {
 
 #dnt-btn {
     border-radius: 4px;
-    -webkit-animation: glowing 3000ms infinite;
-    -moz-animation: glowing 3000ms infinite;
-    -o-animation: glowing 3000ms infinite;
-    animation: glowing 3000ms infinite;
+    -webkit-animation: glowing 5000ms infinite;
+    -moz-animation: glowing 5000ms infinite;
+    -o-animation: glowing 5000ms infinite;
+    animation: glowing 5000ms infinite;
+}
+
+#dnt-btn2 {
+    background-color: #D02227;
 }
 
 #dnt-btn a:hover {
-    background-color: #008cff;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 #send:hover {
@@ -138,7 +143,7 @@ footer {
     border-color: #5fb7ff;
     border-width: 0.2rem;
     border-radius: 20px;
-    box-shadow: 0 0 15px #FFFFFF;
+    box-shadow: 0 0 15px #5fb7ff;
     color: #000000;
     font-family: 'Bebas Neue', cursive;
     text-shadow: 0px 0px 10px #000000;
@@ -236,9 +241,9 @@ span.anchor {
 
 @-webkit-keyframes glowing {
     0% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     25% {
@@ -248,9 +253,9 @@ span.anchor {
     }
 
     50% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     75% {
@@ -260,17 +265,17 @@ span.anchor {
     }
 
     100% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 }
 
 @-moz-keyframes glowing {
     0% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     25% {
@@ -280,9 +285,9 @@ span.anchor {
     }
 
     50% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     75% {
@@ -292,17 +297,17 @@ span.anchor {
     }
 
     100% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 }
 
 @-o-keyframes glowing {
     0% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     25% {
@@ -312,9 +317,9 @@ span.anchor {
     }
 
     50% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     75% {
@@ -324,17 +329,17 @@ span.anchor {
     }
 
     100% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 }
 
 @keyframes glowing {
     0% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     25% {
@@ -344,9 +349,9 @@ span.anchor {
     }
 
     50% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 
     75% {
@@ -356,8 +361,8 @@ span.anchor {
     }
 
     100% {
-        background-color: #5fb7ff;
-        border-color: #5fb7ff;
-        -webkit-box-shadow: 0 0 10px #5fb7ff;
+        background-color: #D02227;
+        border-color: #D02227;
+        -webkit-box-shadow: 0 0 15px #D02227;
     }
 }
