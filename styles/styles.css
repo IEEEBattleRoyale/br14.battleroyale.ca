@@ -211,27 +211,36 @@ span.anchor {
 
 /* Style for extra large screen */
 
+@media (min-width: 1200px) {
+    #video-1 iframe, #video-2 iframe {
+        height: 31.5rem !important;
+        max-width: 100% !important;
+    }
+}
+
 @media (max-width: 1200px) {
-    #about-content iframe {
+    #video-1 iframe, #video-2 iframe {
         height: 15.625rem !important;
+        max-width: 100% !important;
     }
 }
 
 /* Style for large screen */
 
 @media (max-width: 992px) {
-    #about-content iframe {
+    #video-1 iframe, #video-2 iframe {
         height: 31.25rem !important;
+        max-width: 100% !important;
     }
 }
 
 /* Style for small screen */
 
 @media (max-width: 575px) {
-    #about-content iframe {
+    #video-1 iframe, #video-2 iframe {
         height: 14.063rem !important;
+        max-width: 100% !important;
     }
-
     #banner {
         width: 100% !important;
     }
