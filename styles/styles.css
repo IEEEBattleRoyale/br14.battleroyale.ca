@@ -212,14 +212,14 @@ span.anchor {
 /* Style for extra large screen */
 
 @media (min-width: 1200px) {
-    #video-1 iframe, #video-2 iframe {
+    #videos iframe {
         height: 31.5rem !important;
         max-width: 100% !important;
     }
 }
 
 @media (max-width: 1200px) {
-    #video-1 iframe, #video-2 iframe {
+    #videos iframe {
         height: 15.625rem !important;
         max-width: 100% !important;
     }
@@ -228,7 +228,7 @@ span.anchor {
 /* Style for large screen */
 
 @media (max-width: 992px) {
-    #video-1 iframe, #video-2 iframe {
+    #videos iframe {
         height: 31.25rem !important;
         max-width: 100% !important;
     }
@@ -237,7 +237,7 @@ span.anchor {
 /* Style for small screen */
 
 @media (max-width: 575px) {
-    #video-1 iframe, #video-2 iframe {
+    #videos iframe {
         height: 14.063rem !important;
         max-width: 100% !important;
     }
