@@ -6,18 +6,11 @@
 # Battle Royale 14 Website
 </td></tr></table>
 
-## Contributors
-
-1. Steven Li (BR14 Co-Lead)
-
-## Languages Used
+## Languages and Framework Used
 - HTML
 - CSS
 - JavaScript
 - Bootstrap 5.0.2
-
-## Additional Information
-- This project was previously edited on a personal repository, at [https://github.com/stevenli5/battleroyale](https://github.com/stevenli5/battleroyale)
 
 # Battle Royale 14 Organizing Team
 - Steven L. (Lead Organizer & Webmaster, IEEE uOttawa)
