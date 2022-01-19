@@ -26,7 +26,7 @@
 - Juan H. P. (Tournament Lead, IEEE uOttawa)
 - Mario S. (Events Lead, IEEE Carleton)
 - Ali J. (Marketing Lead, uOttawa)
-- Pavly S. (Marketing Lead, uOttawa)
+- Pavly S. (Marketing Lead, IEEE uOttawa)
 - Mehedi H. (Patronage Lead, IEEE uOttawa)
 - Rafael A. (Design Lead, uOttawa)
 - Alae B. (Design Lead, IEEE uOttawa)
