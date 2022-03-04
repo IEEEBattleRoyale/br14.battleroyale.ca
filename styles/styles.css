@@ -446,20 +446,20 @@ body .progress-bg div {
 
 @-webkit-keyframes progress-bar {
     from { width: 0%; }
-    to { width: 53.64%; }
+    to { width: 100%; }
 }
 
 @-moz-keyframes progress-bar {
     from { width: 0%; }
-    to { width: 53.64%; }
+    to { width: 100%; }
 }
 
 @-o-keyframes progress-bar {
     from { width: 0%; }
-    to { width: 53.64%; }
+    to { width: 100%; }
 }
 
 @keyframes progress-bar {
     from { width: 0%; }
-    to { width: 53.64%; }
+    to { width: 100%; }
 }
